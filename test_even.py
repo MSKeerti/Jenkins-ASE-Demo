@@ -9,5 +9,5 @@ def check_even(number):
         sys.exit(1)  # Failure exit code
 
 if __name__ == "__main__":
-    num = 4  # Change this to an odd number to simulate failure in Jenkins
+    num = 5 # Change this to an odd number to simulate failure in Jenkins
     check_even(num)
